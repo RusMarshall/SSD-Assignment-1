@@ -1,6 +1,0 @@
-2021-09-13 11:15:57.930001
-Pascal_Triangle: 'str' object cannot be interpreted as an integer
-
-2021-09-13 11:15:57.930157
-Quadratic_equation_solver: unsupported operand type(s) for -: 'int' and 'list'
-

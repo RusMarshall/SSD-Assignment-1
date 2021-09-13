@@ -26,9 +26,9 @@ $ git clone https://github.com/RusMarshall/SSD-Assignment-1
 ```
 or download ```.zip``` file
 
-2) Open IDE like "pyCharm" then -> File -> open -> SSD-Assignment-1
+2) Open IDE like "pyCharm" then -> File -> open -> SSD-Assignment-1 folder
 
-3) Run 
+3) Finally run 
 ```
 python3  main.py
 ```

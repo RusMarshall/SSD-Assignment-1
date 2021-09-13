@@ -1,0 +1,96 @@
+func Arithmetic_sequence call for 1 executed in 1.7018999999993123e-05 sec
+Name:      Arithmetic_sequence 
+Type:      <class 'function'>  
+Sign:      (a0=0, d=1, n=5)    
+Args:      positional(0, 5, 10)
+           keyworded{}         
+Doc                  Function that prints n lines of arithmetic sequence in console:
+           a1 = a0 + d         
+           a2 = a1 + d         
+           ...                 
+                               
+           :param a0: the first member of the sequence (default 0)
+           :param d:  the difference of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+Source:            def Arithmetic_sequence(a0=0, d=1, n=5):
+           """                 
+           Function that prints n lines of arithmetic sequence in console:
+           a1 = a0 + d         
+           a2 = a1 + d         
+           ...                 
+                               
+           :param a0: the first member of the sequence (default 0)
+           :param d:  the difference of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+           """                 
+           sequence = list()   
+           formula = lambda a, d, pos: a + pos * d
+           for position in range(n):
+           sequence.append(formula(a0, d, position))
+           print(sequence)     
+Output:            [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]
+                               
+func Geometric_sequence call for 1 executed in 1.7276000000010505e-05 sec
+Name:      Geometric_sequence  
+Type:      <class 'function'>  
+Sign:      (b0=0, q=1, n=5)    
+Args:      positional(2, 2, 10)
+           keyworded{}         
+Doc                  Function that prints n lines of geometric sequence in console:
+           b1 = b0 * q         
+           b2 = b1 * q         
+           ...                 
+                               
+           :param b0: the first member of the sequence (default 0)
+           :param q:  the denominator of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+Source:            def Geometric_sequence(b0=0, q=1, n=5):
+           """                 
+           Function that prints n lines of geometric sequence in console:
+           b1 = b0 * q         
+           b2 = b1 * q         
+           ...                 
+                               
+           :param b0: the first member of the sequence (default 0)
+           :param q:  the denominator of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+           """                 
+           sequence = list()   
+           formula = lambda b, q, pos: b * q ** pos
+           for position in range(n):
+           sequence.append(formula(b0, q, position))
+           print(sequence)     
+Output:            [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+                               
+func Geometric_sequence call for 2 executed in 1.422700000000554e-05 sec
+Name:      Geometric_sequence  
+Type:      <class 'function'>  
+Sign:      (b0=0, q=1, n=5)    
+Args:      positional(1, 8, 5) 
+           keyworded{}         
+Doc                  Function that prints n lines of geometric sequence in console:
+           b1 = b0 * q         
+           b2 = b1 * q         
+           ...                 
+                               
+           :param b0: the first member of the sequence (default 0)
+           :param q:  the denominator of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+Source:            def Geometric_sequence(b0=0, q=1, n=5):
+           """                 
+           Function that prints n lines of geometric sequence in console:
+           b1 = b0 * q         
+           b2 = b1 * q         
+           ...                 
+                               
+           :param b0: the first member of the sequence (default 0)
+           :param q:  the denominator of the sequence (default 1)
+           :param n:  total number of printable values of sequence (default 5)
+           """                 
+           sequence = list()   
+           formula = lambda b, q, pos: b * q ** pos
+           for position in range(n):
+           sequence.append(formula(b0, q, position))
+           print(sequence)     
+Output:            [1, 8, 64, 512, 4096]
+                               

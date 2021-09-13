@@ -26,7 +26,7 @@ class decorator_3:
         time_passed, func_output = execution_time(self.func, *args)
         self.time_execution_list[self.func.__name__] = time_passed
         # open .txt file for functions output information
-        with open(f"src/{self.__class__.__name__}.txt", "a") as file:
+        with open(f"{self.__class__.__name__}.txt", "a") as file:
             with contextlib.redirect_stdout(file):
                 print(f"func {self.func.__name__} call for {self.call} "
                       f"executed in {self.time_execution_list[self.func.__name__]} sec")

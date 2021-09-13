@@ -20,7 +20,7 @@ It consists of "main.py" module and 4 another modules "TaskN.py"
 └── Readme.md
 ```
 
-#Run the project 
+# Run the project
 
 1) To run this project clone it first on your computer to the specific folder
 ```

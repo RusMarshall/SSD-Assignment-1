@@ -6,7 +6,7 @@ This is the first assignment of the Software Design with Python course
 # Structure of project
 It consists of "main.py" module and 4 another modules "TaskN.py"
 
-''' bash
+'''
 ├── src              <- directory for source files 
 |    ├── main.py     <- driver program file 
 |    ├── task1.py    <- task 1 implemented here 

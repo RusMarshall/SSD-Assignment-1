@@ -28,7 +28,7 @@ $ git clone https://github.com/RusMarshall/SSD-Assignment-1
 ```
 or download ```.zip``` file
 
-2) Open IDE like "pyCharm" then -> File -> open -> SSD-Assignment-1 folder
+2) Open or download IDE like "pyCharm" after go to ```File -> open -> SSD-Assignment-1``` folder
 
 3) Finally run 
 ```

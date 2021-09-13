@@ -23,7 +23,7 @@ class decorator_4(decorator_3):
         try:
             decorator_3.__call__(self, *args, **kwargs)
         except Exception as error:
-            with open(f"src/{self.__class__.__name__}_log.txt", "a") as f:
+            with open(f"{self.__class__.__name__}_log.txt", "a") as f:
                 with contextlib.redirect_stdout(f):
                     print(datetime.datetime.now())
                     print(f"{self.func.__name__}: " + str(error), end="\n\n")

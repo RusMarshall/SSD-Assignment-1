@@ -30,6 +30,6 @@ or download ```.zip``` file
 
 3) Finally run 
 ```
-python3  main.py
+$ python3  main.py
 ```
 After run three .txt files will created by main.py

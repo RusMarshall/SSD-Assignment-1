@@ -20,7 +20,9 @@ It consists of "main.py" module and 4 another modules "TaskN.py"
 └── Readme.md
 ```
 
-1) To run this project clone it first on your computer 
+#Run the project 
+
+1) To run this project clone it first on your computer to the specific folder
 ```
 $ git clone https://github.com/RusMarshall/SSD-Assignment-1
 ```

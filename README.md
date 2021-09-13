@@ -3,7 +3,7 @@ Developed by Ruslan Khadyev
 
 This is the first assignment of the Software Design with Python course 
 
-# Structure of project
+# Structure of the project
 It consists of "main.py" module and 4 another modules "TaskN.py"
 
 ```
@@ -20,8 +20,16 @@ It consists of "main.py" module and 4 another modules "TaskN.py"
 └── Readme.md
 ```
 
-1) To run this project clone it first on your computer or download .zip file
+1) To run this project clone it first on your computer 
+```
+$ git clone https://github.com/RusMarshall/SSD-Assignment-1
+```
+or download ```.zip``` file
 
 2) Open IDE like "pyCharm" then -> File -> open -> SSD-Assignment-1
 
-3) Run main.py
+3) Run 
+```
+python3  main.py
+```
+After run three .txt files will created by main.py

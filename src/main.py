@@ -14,6 +14,7 @@ def Pascal_Triangle(n = 5):
     :param n: number of printable lines (default 5)
     """
 
+
     top = [1]
     append_val = [0]
     for _ in range(n):
